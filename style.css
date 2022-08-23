@@ -1,0 +1,161 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header styles are here */
+header
+{
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading
+{
+    border: 1px solid rgb(244, 90, 73);
+}
+
+/* nav styles are here */
+
+nav{
+    margin-left: 4%;
+    margin-right: 7%;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    gap: 10px;
+    /* background-color: red; */
+}
+.leftdivnav
+{
+    display: grid;
+    /* background-color: pink; */
+    align-items: center;
+}
+#leftnavtext
+{
+    position:relative;
+    left: 10%;
+    top: 12%;
+}
+.dropdown
+{
+    font-size: 20px;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+}
+.middledivnav
+{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightdivnav
+{
+    display: grid;
+    align-items: center;
+    /* background-color: green; */
+}
+#rightnavtext
+{
+    position: relative;
+    top: 22%;
+}
+.searchbardiv
+{
+    padding: 2px;
+    
+}
+input[type="email"]
+{
+    position: relative;
+    bottom: 10px;
+    font-size: 18px;
+}
+.blackbtn
+{
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    height: 25px;
+    margin-top: 5px;
+}
+/* media queries for nav */
+
+
+/* main content styles are here */
+
+.leftcontainer
+{
+    margin-left: 7%;
+    margin-right: 7%;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 33% 66%;
+    align-items: center;
+    gap: 3px;
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+.orangebtn
+{
+    background-color: rgb(196, 46, 16);
+    color: white;
+    padding: 5px;
+}
+/* .bookdetails
+{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    grid-column-gap: 3px;
+} */
+.bookdetails
+{
+    display: grid;
+    align-items:center;
+    justify-content: flex-start;
+    row-gap: 10px;
+    padding: 10px;
+    
+} 
+
+.orangebtn
+{
+    justify-self:self-start;
+}
+
+/* footer styles are here */
+footer
+{
+    background-color: steelblue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+/* body styles are here */
+
+body
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.8fr 1.7fr 8fr 1fr;
+}
+
+/* general styles are here */
+.boldtext
+{
+    font-weight: bold;
+}
